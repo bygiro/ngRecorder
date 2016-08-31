@@ -6,7 +6,7 @@
   ],
   "contributors": [],
   "main": [
-    "dist/ng-recorder.min.js"
+    "dist/ng-recorder.js"
   ],
   "description": "Angular directive for jQuery Recorder plugin",
   "keywords": [

@@ -10,7 +10,7 @@
     "url": "git://github.com/bygiro/ng-recorder.git"
   },
   "main": [
-	"dist/ng-recorder.min.js"
+	"dist/ng-recorder.js"
   ],
   "licenses": [
     {
