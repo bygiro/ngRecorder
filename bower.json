@@ -1,0 +1,35 @@
+{
+  "name": "ng-recorder",
+  "version": "v0.0.1",
+  "authors": [
+    "ByGiro <girotomaselli@gmail.com>"
+  ],
+  "contributors": [],
+  "main": [
+    "dist/ng-recorder.min.js"
+  ],
+  "description": "Angular directive for jQuery Recorder plugin",
+  "keywords": [
+    "AngularJs",
+    "ByGiro",
+    "RecordRTC",
+    "jQuery-Recorder",
+    "webRTC"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.x",
+    "jquery-recorder": "*"
+  },
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.21.4"
+  }
+}

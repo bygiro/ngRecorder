@@ -1,0 +1,39 @@
+<html ng-app="demoApp">
+<head>
+
+	<script src="../bower_components/angular/angular.js"></script>
+	<script src="../bower_components/recordrtc/RecordRTC.min.js"></script>
+	<script src="assets/js/flow.min.js"></script>
+	<script src="../bower_components/jquery-recorder/dist/jquery.recorder.js"></script>
+	<script src="../dist/ng-recorder.js"></script>
+	<script src="demo.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="demo.css" />
+  
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+</head>
+<body ng-controller="demoCtrl">
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Angular directive: ng-recorder</h1>
+			<p>Angular directive for jQuery Recorder plugin</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div ng-model="dataValue" data-ngr-options="recorderOptions" data-ng-recorder></div>
+		</div>
+		<div class="col-md-6">
+			<pre>Model: {{dataValue | json}}</pre>
+		</div>
+	</div>
+</div>
+</body>
+
+</html>
