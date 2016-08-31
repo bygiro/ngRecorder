@@ -1,13 +1,12 @@
-# Angular directive: Address Picker
+# Angular directive: Ng-Recorder
 
-This is a directive for [angular](https://github.com/angular/angular.js) (based on [jQuery Address Picker](https://github.com/bygiro/jQuery-AddressPicker-ByGiro) project).
-It will convert a simple input text into a fully featured google maps address picker with typeahead.
+This is a directive for [angular](https://github.com/angular/angular.js) (based on [jQuery Recorder plugin](https://github.com/bygiro/jQuery-Recorder) project).
 
 
 ### Install with Bower
 
 ```bash
-$ bower install angular angular-addresspicker --save
+$ bower install angular ng-recorder --save
 ```
 
 check the demo
