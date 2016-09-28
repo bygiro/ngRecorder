@@ -9,7 +9,18 @@ angular.module('ng-recorder', [])
 			$element.recorder($scope.options);
 			
 			var recorderInstance = $element.data('recorder_data');
-
+			
+			$element.recorder('setPreview',$scope.ngModel);
+			
+			$scope.$watch('ngModel',function(newVal, oldVal){
+				if(newVal == oldVal) return;
+				$element.recorder('setPreview',newVal);
+			});
+			
+			$element.on('recording_started.recorder',function(){
+				$timeout();
+			});			
+			
 			if(!recorderInstance.settings.flowOpts || typeof Flow == 'undefined'){
 				// no uploader
 				$element.on('recording_ended.recorder',function(){

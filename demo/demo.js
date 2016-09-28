@@ -5,10 +5,7 @@
 			$scope.dataValue = '';
 			
 			$scope.recorderOptions = {
-				streamType: 'video',
-				flowOpts: {
-					target: '/github/ngRecorder/demo/flow-post.php'
-				}
+				streamType: 'audio'
 			};
 		}
 	]);
